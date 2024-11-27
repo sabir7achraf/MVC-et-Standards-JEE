@@ -1,0 +1,144 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Lien Ajouter un Produit */
+a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #009879;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #007861;
+}
+
+/* Tableau */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #009879;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td a {
+    color: #009879;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+table td a:hover {
+    color: #005f56;
+}
+
+table td a:nth-child(2) {
+    color: #b22c28;
+}
+table td a:nth-child(1) {
+    color: #293d98;
+}
+
+table td a:nth-child(2):hover {
+    color: #a94442;
+}
+.styled-form {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.styled-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.styled-form input,
+.styled-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.styled-form input:focus,
+.styled-form select:focus {
+    border-color: #009879;
+    outline: none;
+    background-color: #f0f8f5;
+}
+
+.styled-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #009879;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-form button:hover {
+    background-color: #007861;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .styled-form {
+        width: 90%;
+    }
+}
